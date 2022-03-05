@@ -94,10 +94,30 @@ main .main-input-container:hover{
 }
 
 main .main-input .search-icon{
-    background-image: url('');
+    background-image: url('https://img.icons8.com/android/24/000000/search.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     width: 1.8rem;
-    height: 420;
+    height: 1.8rem;
+    opacity: 4.5rem;
+}
+
+main .main-input .micro-icon{
+    background-image: url(' https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
+    cursor: pointer;
+}
+
+main .main-buttons{
+    width: 53rem;
+    margin: 0 auto;
+}
+
+main .main-buttons div{
+    display: inline-block;
 }
